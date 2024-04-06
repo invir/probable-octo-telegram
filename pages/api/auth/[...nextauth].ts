@@ -6,7 +6,7 @@ export const authOptions: NextAuthOptions = {
   // https://next-auth.js.org/configuration/providers/oauth
   providers: [
     {
-      id: "worldcoin",
+      id: "040823224614",
       name: "Worldcoin",
       type: "oauth",
       wellKnown: "https://id.worldcoin.org/.well-known/openid-configuration",
