@@ -18,7 +18,7 @@ export const authOptions: NextAuthOptions = {
         return {
           id: profile.sub,
           name: profile.sub,
-          credentialType: profile["https://id.worldcoin.org/beta"].credential_type,
+          credentialType: profile["https://id.worldcoin.org/v1"].credential_type,
         }
       },
     },
