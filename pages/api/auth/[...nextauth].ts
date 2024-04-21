@@ -3,7 +3,7 @@ import NextAuth, { NextAuthOptions } from "next-auth";
 export const authOptions: NextAuthOptions = {
   providers: [
     {
-      id: "worldcoin",
+      id: "040823224614",
       name: "Worldcoin",
       type: "oauth",
       version: "2.0",
