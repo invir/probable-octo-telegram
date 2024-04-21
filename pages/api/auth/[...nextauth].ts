@@ -1,4 +1,5 @@
 import NextAuth, { NextAuthOptions } from "next-auth";
+import Providers from "next-auth/providers";
 
 export const authOptions: NextAuthOptions = {
   providers: [
@@ -12,7 +13,7 @@ export const authOptions: NextAuthOptions = {
       profileUrl: "https://api.worldcoin.org/user",
       clientId: process.env.WLD_CLIENT_ID,
       clientSecret: process.env.WLD_CLIENT_SECRET,
-      scope: "openid email profile", // Adjust the scope as needed
+      scope: "040823224614", 
       profile(profile) {
         return {
           id: profile.sub,
